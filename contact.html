@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>CONTACT</title>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Mimi Guest House</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+    <img src="images/logo.jpg" alt="Mimi Guest House Logo" class="logo"> 
+     <nav>
+      <a href="index.html">🏠 Home</a> | 
+      <a href="Gallery.html">Gallery</a> |
+      <a href="about.html">ℹ️ About</a> |
+      <a href="contact.html">📞Contact us </a> 
+    </nav> 
+  </header>
+    <p class="address">No 8, Esomo Close Off Toyin Street, Ikeja, Lagos, Nigeria.</p>
+    <p class="address"><a href="tel:+2348076766444">📞 Call Us</a></p>
+    <p class="address"><a href="https://www.instagram.com/mimii_guest_house" target="_blank">📸 Instagram</a></p>
+
+
+    <section class="contact-form">
+    <h2 class="Contact">Contact Us</h2>
+    <form onsubmit="event.preventDefault(); alert('Message submitted!'); action = "https://formspree.io/f/xwpbdnwk" method="POST">
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    </section>
+    
+  <footer>
+    <p>© 2025 Mimi Guest House. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
